@@ -1,15 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>Document</title>
-=======
-    <title>project 1 one</title>
->>>>>>> 179e2bfd583c5a705574b7cb39ad5dcb6da5cd4b
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>jobify</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <header class="navbar">
+    <div class="logo">jobify</div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Resources</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <button class="nav-btn">Post a Job</button>
+  </header>
+
+  <section class="hero">
+
+    <div class="hero-text">
+      <h1>Let’s hire your next great candidate. Fast.</h1>
+
+      <p>
+        Find skilled workers, manage applications,
+        and interview candidates directly from one platform.
+      </p>
+
+      <button id="heroBtn">Post a Job</button>
+    </div>
+
     
+    <div class="hero-image">
+      <img
+        src="image/img1.jfif"
+        alt="team"
+      />
+    </div>
+
+  </section>
+
+<!-- JOB SLIDER -->
+
+<section class="jobs">
+
+  <h2>Popular Jobs Available</h2>
+
+  <div class="slider-wrapper">
+
+    <!-- (LEFT BUTTON) -->
+    <button class="slide-btn left" id="prevBtn">
+      &#10094;
+    </button>
+
+    <!-- SLIDER (1) -->
+    <div class="job-slider" id="jobSlider">
+
+      <div class="job-card">
+        <img src="image/img3.avif" alt="job image" class="job-image">
+        <h3>Frontend Developer</h3>
+        <p>Google • Remote</p>
+        <button>Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <img src="image/img4.avif" alt="job image" class="job-image">
+        <h3>UI/UX Designer</h3>
+        <p>Camtel • Yaounde</p>
+        <button>Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <img src="image/img3.avif" alt="job image" class="job-image">
+        <h3>Digital Marketing</h3>
+        <p>KMC • Buea</p>
+        <button>Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <img src="image/img3.avif" alt="job image" class="job-image">
+        <h3>Marketing Manager</h3>
+        <p>Njieforbi • Buea</p>
+        <button>Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <img src="image/img3.avif" alt="job image" class="job-image">
+        <h3>Data Analyst</h3>
+        <p>UBA • Limbe</p>
+        <button>Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <img src="image/img3.avif" alt="job image" class="job-image">
+        <h3>Software Engineer</h3>
+        <p>UBA • Limbe</p>
+        <button>Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <img src="image/img3.avif" alt="job image" class="job-image">
+        <h3>Sales Manager</h3>
+        <p>Njieforbi • Limbe</p>
+        <button>Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <img src="image/img3.avif" alt="job image" class="job-image">
+        <h3>Project Manager</h3>
+        <p>SOCADEL • Buea</p>
+        <button>Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <img src="image/img3.avif" alt="job image" class="job-image">
+        <h3>Cybersecurity Specialist</h3>
+        <p>IBM • Remote</p>
+        <button>Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <img src="image/img3.avif" alt="job image" class="job-image">
+        <h3>AI Engineer</h3>
+        <p>OpenAI • Remote</p>
+        <button>Apply Now</button>
+      </div>
+
+    </div>
+
+    <!-- (RIGHT BUTTON) -->
+    <button class="slide-btn right" id="nextBtn">
+      &#10095;
+    </button>
+
+  </div>
+
+</section>
+  <!-- FEATURES -->
+  <section class="features">
+
+    <h2>Manage your hiring from start to finish</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Post a Job</h3>
+        <p>Create job posts quickly and reach thousands of candidates.</p>
+      </div>
+
+      <div class="card">
+        <h3>Find Applicants</h3>
+        <p>Use screening tools to find the right people faster.</p>
+      </div>
+
+      <div class="card">
+        <h3>Make Connections</h3>
+        <p>Message and interview candidates directly online.</p>
+      </div>
+
+      <div class="card">
+        <h3>Hire Confidently</h3>
+        <p>Track hiring progress and manage applications easily.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- DASHBOARD SECTION -->
+  <section class="dashboard">
+
+    <div class="dashboard-image">
+      <img
+        src="image/img2.jfif"
+        alt="dashboard"
+      />
+    </div>
+
+    <div class="dashboard-text">
+      <h2>Your Dashboard Features</h2>
+
+      <ul>
+        <li>Manage open jobs</li>
+        <li>Filter applications</li>
+        <li>Schedule interviews</li>
+        <li>Track candidates easily</li>
+      </ul>
+    </div>
+
+  </section>
+
+
+  <section class="cta">
+
+    <h2>Ready to find your next hire?</h2>
+
+    <button id="ctaBtn">Get Started</button>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© jobify 2026</p>
+  </footer>
+
+
+  <script src="script.js"></script>
 </body>
 </html>

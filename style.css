@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* MAIN NAVBAR FOR THE WEBSITE */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 60px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #2557a7;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-btn {
+  padding: 10px 18px;
+  background: #2557a7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* HERO FORMAT */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 80px 60px;
+  background: #f3f2f1;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-text button {
+  padding: 14px 24px;
+  background: #2557a7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-image {
+  width: 45%;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* THIS IS THE JOB SLIDER */
+
+.jobs {
+  padding: 10px 10px;
+  background: white;
+}
+
+.jobs h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 38px;
+}
+
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.job-slider {
+  display: flex;
+  gap: 20px;
+
+  overflow-x: auto;
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;
+}
+
+.job-slider::-webkit-scrollbar {
+  display: none;
+}
+.job-image {
+  width: 400px;
+  height: 400px;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+
+  margin-bottom: 15px;
+}
+.job-card {
+  min-width: 100px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  padding: 155px;
+
+  flex-shrink: 0;
+
+  transition: 0.3s;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.job-card h3 {
+  margin-bottom: 10px;
+  color: #2557a7;
+}
+
+.job-card p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.job-card button {
+  width: 100%;
+  padding: 10px;
+
+  border: none;
+  border-radius: 5px;
+
+  background: #2557a7;
+  color: white;
+
+  cursor: pointer;
+}
+
+/* THIS IS THE SLIDER BUTTONS */
+
+.slide-btn {
+  position: absolute;
+  z-index: 10;
+
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #2557a7;
+  color: white;
+
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.left {
+  left: -20px;
+}
+
+.right {
+  right: -20px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .jobs {
+    padding: 60px 20px;
+  }
+
+  .job-card {
+    min-width: 250px;
+  }
+
+}
+
+/* THIS IS FOR "FEATURES SECTION" */
+
+.features {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 50px;
+  font-size: 36px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+}
+
+
+/* THIS FOR THE "DASHBOARD SECTION" */
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 80px 60px;
+  background: #fafafa;
+}
+
+.dashboard-image {
+  width: 45%;
+}
+
+.dashboard-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.dashboard-text {
+  width: 45%;
+}
+
+.dashboard-text h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.dashboard-text ul {
+  list-style: none;
+}
+
+.dashboard-text li {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+
+/* THIS IS FOR THE CTA SECTION" */
+
+.cta {
+  padding: 80px 20px;
+  text-align: center;
+  background: #2557a7;
+  color: white;
+}
+
+.cta h2 {
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+
+.cta button {
+  padding: 14px 28px;
+  background: white;
+  color: #2557a7;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/* THIS IS FOR THE "FOOTER SECTION" */
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+
+/* THIS IS FOR THE "RESPONSIVE SECTION" */
+
+@media (max-width: 900px) {
+
+  .hero,
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .hero-text,
+  .hero-image,
+  .dashboard-text,
+  .dashboard-image {
+    width: 100%;
+  }
+
+  .hero-text {
+    margin-bottom: 40px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero-text h1 {
+    font-size: 35px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+}
