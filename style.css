@@ -23,26 +23,71 @@ body {
 }
 
 .logo {
-  font-size: 30px;
-  font-weight: bold;
-  color: #2557a7;
+     font-size: 2rem;
+    font-weight: 800;
+    color: #111827;
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+
+
+.logo::first-letter{
+    color: #4f46e5;
+}
+
+
+nav{
+    display: flex;
+    gap: 35px;
 }
 
 nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #333;
+      text-decoration: none;
+    color: #374151;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+nav a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0%;
+    height: 3px;
+    background: #4f46e5;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+nav a:hover{
+    color: #4f46e5;
+}
+
+nav a:hover::after{
+    width: 100%;
 }
 
 .nav-btn {
-  padding: 10px 18px;
-  background: #2557a7;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+     border: none;
+    outline: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 20px rgba(79,70,229,0.25);
 }
 
+.nav-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(79,70,229,0.35);
+}
 
 /* HERO FORMAT */
 
@@ -121,8 +166,8 @@ nav a {
   display: none;
 }
 .job-image {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
 
   object-fit: cover;
 
@@ -131,12 +176,12 @@ nav a {
   margin-bottom: 15px;
 }
 .job-card {
-  min-width: 100px;
+  min-width: 50px;
   background: white;
   border: 1px solid #ddd;
   border-radius: 10px;
 
-  padding: 155px;
+  padding: 50px;
 
   flex-shrink: 0;
 
