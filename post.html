@@ -13,8 +13,76 @@
   </video>
   
   <div class="overlay-text"><h2>WELCOME TO SKILLS </h2>
-   <h1>Hiring that is simpler, fast and more human</h1></div>
+   <h1>Hiring that is simpler, fast and more human</h1>
+   <button>POST A JOB</button>
+  </div>
 </div>
+<div class="profile container">
+    <div class="profile-card">
+  <img src="juice 4.jpg" alt="Profile Picture">
+  
+  <h1>CAR WASHER</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sequi quis exercitationem modi aliquam eaque itaque quia ex omnis placeat. Cumque adipisci beatae quod explicabo, facilis dolore unde libero voluptas.</p>
+  
+  </div>
+  <p><button>Apply Now</button></p>
+
+  <div class="profile-card">
+  <img src="juice 4.jpg" alt="Profile Picture">
+  <h1>SECRETERY</h1>
+  <p>Harvard University</p>
+  </div>
+  
+  <p><button>Apply Now</button></p>
+
+  <div class="profile-card">
+  <img src="juice 4.jpg" alt="Profile Picture">
+  
+  <h1>WEB DEVELOPER</h1>
+  <p>Harvard University</p>
+  <p><button>Apply Now</button></p>
+</div>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores <br>blanditiis pariatur culpa, minima earum mollitia error repudiandae omnis quia rerum,<br> nemo molestiae magni, nisi nostrum. Eum sint repudiandae nobis consequatur?</p>
+<div class="container">
+        <!-- Employer Job Posting Form -->
+        <div class="form-container">
+            <h2>Post a Job</h2>
+            <form id="jobForm">
+                <div class="form-group">
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" required>
+                </div>
+                <div class="form-group">
+                    <label for="title">Job Title</label>
+                    <input type="text" id="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" required>
+                </div>
+                <div class="form-group">
+                    <label for="salary">Salary ($)</label>
+                    <input type="text" id="salary" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Job Description</label>
+                    <textarea id="description" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit Job</button>
+            </form>
+        </div>
+
+        <!-- Display Board -->
+        <div class="job-board">
+            <h2>Recent Job Postings</h2>
+            <div id="jobListings">
+                <!-- Jobs will dynamically appear here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
  <footer>By using this site, you agree our terms of use. Commercial use of this site without express authorization is prohibited.</footer>
 </html>
