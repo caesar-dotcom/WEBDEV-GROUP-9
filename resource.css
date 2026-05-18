@@ -1,0 +1,45 @@
+.grid-container {
+  display: grid; /* Enables CSS grid layout */
+  /* Creates equal-width columns. Example: '1fr 1fr' for two columns */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px; /* Space between grid items */
+  padding: 20px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex; /* Flexbox can align internal content within each grid box */
+  flex-direction: column;
+}
+
+.grid-item img {
+  width: 100%; /* Ensures images fill their grid slot */
+  height: 200px;
+  object-fit: cover; /* Prevents image stretching */
+}
+
+.text-box {
+  padding: 15px;
+}
+/* body section */
+header{
+    color: blue;
+}
+.EMPLOYER{
+   font-weight: bold;
+   font-size:40px ;
+ padding-bottom: 30px;
+}
+.job{
+    
+    padding-top: 0px;
+}
+body{
+     background-image:  url("img/400.jpeg");
+     color: white;
+     font-size: 30px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+}
