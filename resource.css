@@ -41,5 +41,11 @@ body{
      color: white;
      font-size: 30px;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     
+}
+.Help:hover{
+  cursor:pointer;
+  opacity: 0.6;
+}
+.Help{
+color: rgb(52, 52, 235);
 }
