@@ -12,68 +12,32 @@ body{
   color:#222;
 }
 
-/* NAVBAR */
-/* 
-.navbar{
-  background:#0f172a;
-  color:white;
-  padding:15px 40px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  flex-wrap:wrap;
-}
-
-.nav-left{
-  display:flex;
-  align-items:center;
-  gap:20px;
-}
-
-.logo{
-  width:45px;
-  height:45px;
-  background:#2563eb;
-  border-radius:50%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-weight:bold;
-}
-
-.search-box input{
-  padding:10px;
-  border:none;
-  border-radius:8px;
-}
-
-.nav-right{
-  display:flex;
-  gap:20px;
-  flex-wrap:wrap;
-}
-
-.nav-right a{
-  color:white;
-  text-decoration:none;
-} */
 
 /* HERO */
 
-.hero{
+/* .hero{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:70px 40px;
+  /* padding:70px 40px;
   gap:40px;
   flex-wrap:wrap;
-  background:linear-gradient(135deg,#1e3a8a,#2563eb);
-  color:white;
-}
+  color:white; 
+} */
 
 .hero-text{
-  flex:1;
-}
+  height:90vh;
+  background:
+  background-size:cover;
+  background-position:center;
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 8%;
+  color:white; 
+} */
 
 .hero-text h1{
   font-size:55px;

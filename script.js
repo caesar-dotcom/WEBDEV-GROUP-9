@@ -1,6 +1,21 @@
 /* =========================
         script.js
 ========================= */
+const navLinks = document.querySelectorAll(".nav-right a");
+
+navLinks.forEach(link => {
+
+  link.addEventListener("click", () => {
+
+    navLinks.forEach(item => {
+      item.classList.remove("active");
+    });
+
+    link.classList.add("active");
+
+  });
+
+});
 
 const slides = document.querySelectorAll(".slide");
 

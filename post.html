@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>job</title>
-    <link rel="stylesheet" href="post.css">
+    <title>trustedskills</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="resource.css">
+    <link rel="stylesheet" href="apply.css">
 </head>
 <body>
-    <body>
      <nav class="navbar">
     <div class="nav-left">
-      <div class="logo">TS</div>
-
+      <a href="index1.html" class="logo">TS</a>
       <div class="search-box">
         <input type="text" placeholder="Search jobs..." />
       </div>
     </div>
 <div class="nav-right">
 
- <a href="index.html" style="text-decoration: none;">
+ <a href="index1.html" style="text-decoration: none;">
   <div class="nav-item">🏠 Home</div>
 </a>
 <a href="features.html" style="text-decoration: none;">
@@ -31,91 +31,378 @@
 <a href="resource.html" style="text-decoration: none;">
   <div class="nav-item">💡 Resource</div>
 </a>
-<a href="your-link-here.html" style="text-decoration: none;">
+<a href="about.html" style="text-decoration: none;">
   <div class="nav-item">🔗 About</div>
 </a>
-<a href="your-link-here.html" style="text-decoration: none;">
+<a href="contact.html" style="text-decoration: none;">
   <div class="nav-item">✉ Contact</div>
 </a>
     </div>
   </nav>
+
+<!-- JOB SECTION -->
 <div class="video-container">
+
   <video controls autoplay muted loop>
-    <source src="your-video.mp4" type="video/mp4">
+    <source src="vid/v1.mp4" type="video/mp4">
   </video>
-  
-  <div class="overlay-text"><h2>WELCOME TO SKILLS </h2>
-   <h1>Hiring that is simpler, fast and more human</h1>
-   <button>POST A JOB</button>
+
+  <div class="overlay-text">
+
+    <h2>WELCOME TO SKILLS</h2>
+
+    <h1>
+      Hiring that is simpler, faster and more human
+    </h1>
+
+    <button class="hero-btn">
+      POST A JOB
+    </button>
+
   </div>
+
 </div>
-<div class="profile container">
+
+<!-- JOB CARDS -->
+
+<section class="jobs-section">
+
+  <h1 class="section-title">
+    Available Jobs In Cameroon
+  </h1>
+
+  <div class="jobs-grid">
+
+    <!-- JOB 1 -->
     <div class="profile-card">
-  <img src="juice 4.jpg" alt="Profile Picture">
-?
-  <h1>CAR WASHER</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sequi quis exercitationem modi aliquam eaque itaque quia ex omnis placeat. Cumque adipisci beatae quod explicabo, facilis dolore unde libero voluptas.</p>
-  
-  </div>
-  <p><button>Apply Now</button></p>
 
-  <div class="profile-card">
-  <img src="juice 4.jpg" alt="Profile Picture">
-  <h1>SECRETERY</h1>
-  <p>Harvard University</p>
-  </div>
-  
-  <p><button>Apply Now</button></p>
+      <img src="img/job1.jpg">
 
-  <div class="profile-card">
-  <img src="juice 4.jpg" alt="Profile Picture">
-  
-  <h1>WEB DEVELOPER</h1>
-  <p>doo</p>
-  <p><button>Apply Now</button></p>
-</div>
-</div>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores <br>blanditiis pariatur culpa, minima earum mollitia error repudiandae omnis quia rerum,<br> nemo molestiae magni, nisi nostrum. Eum sint repudiandae nobis consequatur?</p>
+      <h1>CAR WASHER</h1>
 
-<div class="container">
-        <!-- Employer Job Posting Form -->
-        <div class="form-container">
-            <h2>Post a Job</h2>
-            <form id="jobForm">
-                <div class="form-group">
-                    <label for="company">Company Name</label>
-                    <input type="text" id="company" required>
-                </div>
-                <div class="form-group">
-                    <label for="title">Job Title</label>
-                    <input type="text" id="title" required>
-                </div>
-                <div class="form-group">
-                    <label for="location">Location</label>
-                    <input type="text" id="location" required>
-                </div>
-                <div class="form-group">
-                    <label for="salary">Salary ($)</label>
-                    <input type="text" id="salary" required>
-                </div>
-                <div class="form-group">
-                    <label for="description">Job Description</label>
-                    <textarea id="description" rows="4" required></textarea>
-                </div>
-                <button type="submit">Submit Job</button>
-            </form>
-        </div>
+      <p>
+        Location: Douala <br>
+        Salary: 90,000 FCFA <br>
+        Experience: 1 Year
+      </p>
 
-        <!-- Display Board -->
-        <div class="job-board">
-            <h2>Recent Job Postings</h2>
-            <div id="jobListings">
-                <!-- Jobs will dynamically appear here -->
-            </div>
-        </div>
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
     </div>
 
-    <script src="script.js"></script>
+    <!-- JOB 2 -->
+    <div class="profile-card">
+
+      <img src="img/job2.jpg">
+
+      <h1>SECRETARY</h1>
+
+      <p>
+        Location: Yaounde <br>
+        Salary: 150,000 FCFA <br>
+        Experience: 2 Years
+      </p>
+
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
+    </div>
+
+    <!-- JOB 3 -->
+    <div class="profile-card">
+
+      <img src="img/job3.jpg">
+
+      <h1>WEB DEVELOPER</h1>
+
+      <p>
+        Location: Buea <br>
+        Salary: 300,000 FCFA <br>
+        Experience: 3 Years
+      </p>
+
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
+    </div>
+
+    <!-- JOB 4 -->
+    <div class="profile-card">
+
+      <img src="img/job4.jpg">
+
+      <h1>HOTEL RECEPTIONIST</h1>
+
+      <p>
+        Location: Limbe <br>
+        Salary: 120,000 FCFA <br>
+        Experience: 1 Year
+      </p>
+
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
+    </div>
+
+    <!-- JOB 5 -->
+    <div class="profile-card">
+
+      <img src="img/job5.jpg">
+
+      <h1>GRAPHIC DESIGNER</h1>
+
+      <p>
+        Location: Douala <br>
+        Salary: 250,000 FCFA <br>
+        Experience: 2 Years
+      </p>
+
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
+    </div>
+
+    <!-- JOB 6 -->
+    <div class="profile-card">
+
+      <img src="img/job6.jpg">
+
+      <h1>MARKETING AGENT</h1>
+
+      <p>
+        Location: Yaounde <br>
+        Salary: 180,000 FCFA <br>
+        Experience: 1 Year
+      </p>
+
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
+    </div>
+
+    <!-- JOB 7 -->
+    <div class="profile-card">
+
+      <img src="img/job7.jpg">
+
+      <h1>SECURITY GUARD</h1>
+
+      <p>
+        Location: Bamenda <br>
+        Salary: 100,000 FCFA <br>
+        Experience: 1 Year
+      </p>
+
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
+    </div>
+
+    <!-- JOB 8 -->
+    <div class="profile-card">
+
+      <img src="img/job8.jpg">
+
+      <h1>SHOP ATTENDANT</h1>
+
+      <p>
+        Location: Bafoussam <br>
+        Salary: 85,000 FCFA <br>
+        Experience: None
+      </p>
+
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
+    </div>
+
+    <!-- JOB 9 -->
+    <div class="profile-card">
+
+      <img src="img/job9.jpg">
+
+      <h1>ACCOUNTANT</h1>
+
+      <p>
+        Location: Douala <br>
+        Salary: 350,000 FCFA <br>
+        Experience: 4 Years
+      </p>
+
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
+    </div>
+
+    <!-- JOB 10 -->
+    <div class="profile-card">
+
+      <img src="img/job10.jpg">
+
+      <h1>DELIVERY DRIVER</h1>
+
+      <p>
+        Location: Yaounde <br>
+        Salary: 130,000 FCFA <br>
+        Experience: 2 Years
+      </p>
+
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
+    </div>
+
+    <!-- JOB 11 -->
+    <div class="profile-card">
+
+      <img src="img/job11.jpg">
+
+      <h1>ADMINISTRATIVE ASSISTANT, </h1>
+
+      <p>
+        Location: Buea <br>
+        Salary: 210,000 FCFA <br>
+        Experience: 3 Years
+      </p>
+
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
+    </div>
+
+
+    <!-- JOB 12 -->
+    <div class="profile-card">
+
+      <img src="img/job12.jpg">
+
+      <h1>MOTEL ATTENDANT</h1>
+
+      <p>
+        Location: Limbe <br>
+        Salary: 70,000 FCFA <br>
+        Experience: 1 Years
+      </p>
+
+      <button class="apply-btn">
+        Apply Now
+      </button>
+
+    </div>
+
+
+  </div>
+
+</section>
+
+<!-- APPLY FORM POPUP -->
+
+<div class="apply-popup" id="applyPopup">
+
+  <div class="apply-box">
+
+    <span class="close-btn" id="closePopup">
+      ✖
+    </span>
+
+    <h2>Job Application Form</h2>
+
+    <form id="applyForm">
+
+      <input 
+        type="text" 
+        placeholder="Full Name"
+        required
+      >
+
+      <input 
+        type="email" 
+        placeholder="Email Address"
+        required
+      >
+
+      <input 
+        type="tel" 
+        placeholder="Phone Number"
+        required
+      >
+
+      <input 
+        type="text" 
+        placeholder="Location"
+        required
+      >
+
+      <textarea 
+        placeholder="Tell us about yourself"
+        rows="5"
+        required>
+      </textarea>
+
+      <!-- FILE UPLOAD -->
+      <label class="file-label">
+        Upload CV / Documents
+      </label>
+
+      <input 
+        type="file" 
+        id="cvFile"
+        accept=".pdf,.doc,.docx,.jpg,.png"
+      >
+
+      <button type="submit">
+        Submit Application
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
+
+  <!-- SECTION 8 CONTACT -->
+  <section class="contact">
+
+    <h1>Need Help?</h1>
+
+    <p>
+      Contact support for assistance and job inquiries.
+    </p>
+
+    <div class="contact-info">
+
+      <div>📞 +237 681012932</div>
+
+      <div>✉ support@tsjobs.com</div>
+
+    </div>
+
+    <button>Contact Support</button>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      © 2026 TS Job Platform. All Rights Reserved.
+    </p>
+
+  </footer>
+
+  <script src="post.js"></script>
+
 </body>
- <footer>By using this site, you agree our terms of use. Commercial use of this site without express authorization is prohibited.</footer>
 </html>
